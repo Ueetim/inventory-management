@@ -12,25 +12,39 @@ export class AppComponent {
   constructor() {
     this.products = [
       new Product(
-        'MYSHOES',
-        'Black Running Shoes',
-        '/assets/images/products/blue-jacket.jpg',
-        ['Women', 'Apparel', 'Jackets & Vests'],
-        238.99
+        'CAP',
+        'Black Baseball Cap',
+        '/assets/images/black-hat-removebg-preview.png',
+        ['Men', 'Apparel', 'Headgear'],
+        1200.00
       ),
       new Product(
-        'MYSHOES',
+        'SHOES',
         'Black Running Shoes',
-        '/assets/images/products/blue-jacket.jpg',
-        ['Women', 'Apparel', 'Jackets & Vests'],
-        238.99
+        '/assets/images/black-shoe-removebg-preview.png',
+        ['Men', 'Footwear', 'Shoes'],
+        4500
       ),
       new Product(
-        'MYSHOES',
-        'Black Running Shoes',
-        '/assets/images/products/blue-jacket.jpg',
-        ['Women', 'Apparel', 'Jackets & Vests'],
-        238.99
+        'WATCH',
+        'Blue Watch',
+        '/assets/images/blue-watch.png',
+        ['Men', 'Accessories', 'Jewelleries'],
+        1000.00
+      ),
+      new Product(
+        'SHIRT',
+        'Green Shirt',
+        '/assets/images/green-shirt.png',
+        ['Men', 'Apparel', 'Jackets & Vests'],
+        1500.00
+      ),
+      new Product(
+        'SHOES',
+        'Red Shoes',
+        '/assets/images/red-shoe.png',
+        ['Women', 'Footwear', 'Shoes'],
+        2000.00
       ),
     ];
   }

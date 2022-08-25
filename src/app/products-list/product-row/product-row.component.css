@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product {
+    display: flex;
+    width: 90%;
+    max-width: 700px;
+    border: 1px solid #e1e1e1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    transition: box-shadow .2s;
+}
+
+.product:hover {
+    box-shadow: 0 3px 3px #00000031;
+    background-color: #f7f7f7;
+    transition: .2s;
+}
+
+.img-content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.product-sku {
+    color: #6d6d6d;
+    margin: 10px 0;
+    font-size: 14px;
+}
